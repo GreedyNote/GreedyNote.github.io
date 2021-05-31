@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "Git 설치하고 로컬저장소에서 커밋 관리하기"
+subtitle:   "한번 해봅시다"
+date: 2021-06-01
+categories: Blog
+tags: git
+---
+## 내 컴퓨터에 깃 설치하기
+먼저 깃을 설치하기위해 https://git-scm.com/downloads 링크로 들어가서 자신의 운영체제에 맞는 Git을 설치합니다.
+![git_download](/assets/git_download.png)
+<br>
+Git이 잘 설치되었는지 보기 위해서 윈도우 시작 버튼 옆에 있는 돋보기 아이콘을 클릭해서 'Git Bash'를 입력하고, 찾아서 실행한 후 다음과 같이 입력합니다.
+```
+$ git
+```
+![git_result](/assets/git_result.png)
+위 처럼 Git 기본 명령어에 대한 안내가 나오면 Git이 제대로 설치된 것입니다.
+<br>
+## 소스트리 설치하기
+소스트리는 Git 사용을 도와주는 GUI 프로그램입니다. 원래라면 Git Bash에서 코드를 입력해 필요한 명령을 내려야하지만 소스트리를 사용한다면 버튼을 클릭하는 방식으로 필요한 명령을 실행할 수 있도록 도와주기 때문에 편리합니다. 무엇보다 초보자의 입장에서 배우기 편리하기때문에 처음에는 GUI 환경에서 작업을 하는것을 추천합니다. https://www.sourcetreeapp.com/ 링크로 들어가서 자신의 운영체제에 맞는 Sourcetree를 설치합니다.
+<br>
+
+## 소스트리에서 GitHub 로그인하기
+![source_tree_a](/assets/source_tree_a.png)
+Remote를 클릭하면 원격저장소와 연동을 시킬 수가 있습니다. 기존에 계정이 있다면 새롭게 GitHub 계정과 연동하기위해 계정편집을 누르고 계정이 없다면 계정 추가를 합니다.

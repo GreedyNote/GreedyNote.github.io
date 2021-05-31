@@ -1,7 +1,7 @@
 ---
 layout: tag-blog
-title: 깃
-slug: git
+title: data acquisition
+slug: data acquisition
 category: Blog
 menu: false
 order: 1
