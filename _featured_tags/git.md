@@ -2,7 +2,7 @@
 layout: tag-blog
 title: git
 slug: git
-category: Blog
+category: blog
 menu: false
 order: 1
 ---
