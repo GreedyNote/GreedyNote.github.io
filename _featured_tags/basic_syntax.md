@@ -1,8 +1,8 @@
 ---
 layout: tag-blog
-title: git
-slug: git
+title: basic_syntax
+slug: basic_syntax
 category: blog
 menu: false
-order: 3
+order: 1
 ---

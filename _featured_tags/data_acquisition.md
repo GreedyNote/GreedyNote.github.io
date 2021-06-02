@@ -4,5 +4,5 @@ title: data acquisition
 slug: data acquisition
 category: blog
 menu: false
-order: 1
+order: 2
 ---
