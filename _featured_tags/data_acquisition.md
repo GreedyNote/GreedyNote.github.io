@@ -1,7 +1,7 @@
 ---
 layout: tag-blog
-title: data acquisition
-slug: data acquisition
+title: data_acquisition
+slug: data_acquisition
 category: blog
 menu: false
 order: 2
