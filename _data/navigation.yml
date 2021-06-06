@@ -17,36 +17,20 @@ main:
 sidebar-contents:
   - title: "Python"
     children:
-      - title: "Data handling"
-        url: /categories/#data-handling
+      - title: "data acquisition"
+        url: /categories/#data-acquisition
       - title: "Web-related"
         url: /categories/#web
-      - title: "Pythonic"
-        url: /categories/#pythonic
-      - title: "etc."
-        url: /categories/#etc
-  - title: "알고리즘"
-    children:
-      - title: "Statistics"
-        url: /categories/#statistics
-      - title: "Machine Learning"
-        url: /categories/#ml
-      - title: "Neural Network"
-        url: /categories/#nn
+      - title: "data preprocessing"
+        url: /categories/#data-preprocessing
   - title: "시스템 & 데이터베이스"
     children:
       - title: "SQL"
         url: /categories/#sql
-      - title: "AWS"
-        url: /categories/#aws
+      - title: "Git"
+        url: /categories/#git
       - title: "system"
         url: /categories/#system
-  - title: "GIS"
-    children:
-      - title: "Spatial Analysis"
-        url: /categories/#spatial-analysis
-      - title: "QGIS"
-        url: /categories/#qgis
   - title: "프로젝트"
     children:
       - title: "Competition"
