@@ -29,7 +29,8 @@ categories:
 > - 비정상 확률 과정으로 표준편차가 자료의 크기에 비례하여 증가하거나 지수함수적으로 증가하는 경우
 > - 로그 변환한 확률 과정의 분산은 일정하기에 추세 제거로 기댓값이 0이 되면 정상 과정으로 모형화 가능
 
-\begin{align*}
+$
+\begin{aligned}
 \text{Distribution of Original} && \text{E}(Y_t) &= \mu_t = f(t) \\
 && \sqrt{\text{Var}(Y_t)} &= \mu_t \sigma \\
 \text{Distribution of Log-transform} && Y_t &= Y_{t-1} + Y_t - Y_{t-1} \\
@@ -42,7 +43,8 @@ categories:
 && \text{Var}(\log Y_t) &\approx \sigma^2 \\
 \text{*Generalization of Return} && R_t &= \dfrac{Y_{t}}{Y_{t-1}} - 1 \\
 && \log{Y_t} - \log{Y_{t-1}} &= \log{R_t + 1} \approx R_t \;\; \text{ if } \left| R_t \right| < 0.2 \\
-\end{align*}
+\end{aligned}
+$
 
 **2) 차분(Difference):** 특정 시점 또는 시점들의 데이터가 발산할 경우 시점간 차분(변화량)으로 정상성 변환 가능
 - **계절성(Seasonality, $S_t$)**: 특정한 달/요일에 따라 기대값이 달라지는 것, 변수 더미화를 통해 추정 가능
