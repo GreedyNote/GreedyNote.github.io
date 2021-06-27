@@ -17,17 +17,18 @@ categories:
 
 **0) Standard Regression:**
 
-<center>
+
 $\hat{\beta} = arg\underset{\hat{\beta}}{min} \Biggl[\displaystyle \sum_{j=1}^t \Bigl(y_j - \displaystyle \sum_{i=0}^k \beta_i x_{ij}\Bigr)^2\Biggr]$
-</center>
+
 
 
 **1) Ridge Regression:**  
 - **정규화조건/패널티/제약조건:** 추정계수의 제곱합을 최소로 하는 것
-
-\begin{align*}
+$
+\begin{aligned}
 \hat{\beta} = arg\underset{\hat{\beta}}{min} \Biggl[\displaystyle \sum_{j=1}^t \Bigl(y_j - \displaystyle \sum_{i=0}^k \beta_i x_{ij}\Bigr)^2 + \lambda \displaystyle \sum_{i=0}^k \beta_i^2\Biggr] \\ where~\lambda~is~hyper~parameter(given~by~human)
-\end{align*}
+\end{aligned}
+$
 
 - **하이퍼파라미터($\lambda$):** 기존의 잔차 제곱합과 추가 제약 조건의 비중을 조절하기 위한 하이퍼모수(hyperparameter)  
     - $\lambda$=0: 일반적인 선형 회귀모형(OLS)  
@@ -37,20 +38,21 @@ $\hat{\beta} = arg\underset{\hat{\beta}}{min} \Biggl[\displaystyle \sum_{j=1}^t 
 
 **2) Lasso(Least Absolute Shrinkage and Selection Operator) Regression:**  
 - **정규화조건/패널티/제약조건:** 추정계수의 절대값 합을 최소로 하는 것
-
-\begin{align*}
+$
+\begin{aligned}
 \hat{\beta} = arg\underset{\hat{\beta}}{min} \Biggl[\displaystyle \sum_{j=1}^t \Bigl(y_j - \displaystyle \sum_{i=0}^k \beta_i x_{ij}\Bigr)^2 + \lambda \displaystyle \sum_{i=0}^k \left|\beta_i \right|\Biggr] \\ where~\lambda~is~hyper~parameter(given~by~human)
-\end{align*}
-
+\end{aligned}
+$
 ![Ridge_Lasso](/assets/Ridge_Lasso.png)
 
 
 **3) Elastic Net:**  
 - **정규화조건/패널티/제약조건:** 추정계수의 절대값 합과 제곱합을 동시에 최소로 하는 것
-
-\begin{align*}
+$
+\begin{aligned}
 \hat{\beta} &= arg\underset{\hat{\beta}}{min} \Biggl[\displaystyle \sum_{j=1}^t \Bigl(y_j - \displaystyle \sum_{i=0}^k \beta_i x_{ij}\Bigr)^2 + \lambda_1 \displaystyle \sum_{i=0}^k \left|\beta_i \right| + \lambda_2 \displaystyle \sum_{i=0}^k \beta_i^2\Biggr] \\ &where~\lambda_1~and~\lambda_2~are~hyper~parameters(given~by~human)
-\end{align*}
+\end{aligned}
+$
 
 ### 하이퍼파라미터 특성 및 요약
 
@@ -500,7 +502,7 @@ plt.show()
     <U>=> 분산이 작다면 다른 데이터로 예측시 적은 변동 예상</U>  
     <U>=> 분산이 크다면 다른 데이터로 예측시 많은 변동 예상</U>  
 
-<center><img src='Image/Bias_Variance1.jpeg' width='400'></center>
+![Bias_Variance1](/assets/Bias_Variance1.jpeg)
 
 > **(수학적 이해)**
 
@@ -519,8 +521,8 @@ plt.show()
 : Training만 잘 예측력 높고 Testing은 예측력 낮음  
 - **Bias와 Variance가 최소화 되는 수준에서 모델의 복잡도 선택**  
 
-<center><img src='Image/Bias-Variance-Tradeoff.png' width='400'></center>
-<center><img src='Image/Bias_Variance4.png' width='400'></center>
+![Bias-Variance-Tradeoff](/assets/Bias-Variance-Tradeoff.png)
+![Bias_Variance4](/assets/Bias_Variance4.png)
 
 **3) 편향과 분산 모두를 최소화하는 방법**
 <center><img src='Image/Bias_Variance_Reduce.png' width='600'></center>
