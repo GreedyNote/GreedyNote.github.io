@@ -25,8 +25,8 @@ url                      : "https://GreedyNote.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "GreedyNote/GreedyNote.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # "/assets/images/my.jpg"
-logo                     : "/assets/images/logo1.png" # path of logo image to display in the masthead, e.g. 
-masthead_title           : "yg's blog" # overrides the website title displayed in the masthead, use " " for no title
+logo                     : # "/assets/images/logo1.png" # path of logo image to display in the masthead, e.g. 
+masthead_title           : "yejoon's blog" # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
